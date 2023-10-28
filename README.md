@@ -1,10 +1,10 @@
-# F5 Distributed Cloud - Simple App Discovery
+# F5 Distributed Cloud - Simple API Discovery
 
 Simple method for providing API Discovery via Distributed Cloud for APIs that are not proxied by Distributed Cloud.
 
 ## Flow
 
-![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/object_flow.jpg?width="200")
+![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/object_flow.jpg?width="100")
 
 ## Outcomes
 
@@ -50,7 +50,7 @@ Update Response Type, Edit Direct Reponse configuration
 
 ![Route Response Type](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_type_response.jpg?width="200")
 
-Updated Response Body (JSON Forma)
+Updated Response Body (JSON Format)
 
 ![Response Body](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/response_body.jpg?width="200")
 
