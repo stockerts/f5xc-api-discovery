@@ -41,7 +41,11 @@ Created a HTTP Load Balancer, specifying your desired configuration
 •	Load Balancer Type
 
 Create a Route within the Load Balancer
-![Route](https://github.com/stockerts/f5xc-app-discovery/static/route.jpg?raw=true)
-![Route Response List](https://github.com/stockerts/f5xc-app-discovery/static/route_response.jpg?raw=true)
-![Route Response Type](https://github.com/stockerts/f5xc-app-discovery/static/route_type_response.jpg?raw=true)
-![Response Body](https://github.com/stockerts/f5xc-app-discovery/static/response_body.jpg?raw=true)
+
+![Route](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route.jpg?raw=true)
+
+![Route Response List](hhttps://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_response.jpg?raw=true)
+
+![Route Response Type](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_type_response.jpg?raw=true)
+
+![Response Body](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/response_body.jpg?raw=true)
