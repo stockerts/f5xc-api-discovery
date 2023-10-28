@@ -1,6 +1,10 @@
 # F5 Distributed Cloud - Simple App Discovery
 
-Simple method for providing Application and API Discovery via Distributed Cloud for Applications & APIs that are not proxied by Distributed Cloud.
+Simple method for providing API Discovery via Distributed Cloud for APIs that are not proxied by Distributed Cloud.
+
+## Flow
+
+![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/object_flow.jpg?width="200")
 
 ## Outcomes
 
@@ -30,8 +34,6 @@ Distributed Cloud Tenant
 
 ## Guide
 
-![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/object_flow.jpg?raw=true)
-
 Created a HTTP Load Balancer, specifying your desired configuration
 
 •	Load Balancer Name
@@ -42,10 +44,16 @@ Created a HTTP Load Balancer, specifying your desired configuration
 
 Create a Route within the Load Balancer
 
-![Route](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route.jpg?raw=true)
+![Route](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route.jpg?width="200")
 
-![Route Response List](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_response.jpg?raw=true)
+Update Response Type, Edit Direct Reponse configuration
 
-![Route Response Type](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_type_response.jpg?raw=true)
+![Route Response Type](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_type_response.jpg?width="200")
 
-![Response Body](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/response_body.jpg?raw=true)
+Updated Response Body (JSON Forma)
+
+![Response Body](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/response_body.jpg?width="200")
+
+Confirm Route List
+
+![Route Response List](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_response.jpg?width="200")
