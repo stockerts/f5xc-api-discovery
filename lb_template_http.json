@@ -39,7 +39,10 @@
     "disable_trust_client_ip_headers": {},
     "disable_ddos_detection": {},
     "disable_malicious_user_detection": {},
-    "disable_api_discovery": {},
+    "enable_api_discovery": {
+      "disable_learn_from_redirect_traffic": {},
+      "sensitive_data_detection_rules": {}
+    },
     "disable_bot_defense": {},
     "disable_api_definition": {},
     "disable_ip_reputation": {},
