@@ -17,29 +17,26 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 ## Outcomes
 
-Path Discovery (Leaf Creation)
+- Path Discovery (Leaf Creation)
 
-Request Sensitive Data Detection (PUT, POST)
+- Request Sensitive Data Detection (PUT, POST)
 
 ## Limitations
 
-No Response Sensitive Data Detection
+- No Response Sensitive Data Detection
 
-No Authentication Detection
+- No Authentication Detection
 
-No Performance Statistics
+- No Performance Statistics
 
 ## Requirements
 
 HTTP(S) Web Request
 
 Distributed Cloud Tenant
-
-•	Load Balancer
-
-•	Route
-
-•	API Discovery
+-	Load Balancer
+-	Route
+-	API Discovery
 
 ## Example Discovery
 
@@ -50,14 +47,11 @@ Distributed Cloud Tenant
 ## Guide
 
 Created a HTTP Load Balancer, specifying your desired configuration
+-	Load Balancer Name
+-	Domains
+-	Load Balancer Type
 
-•	Load Balancer Name
-
-•	Domains
-
-•	Load Balancer Type
-
-**Note** Additional References @ [F5 Tech Docs - HTTP Load Balacer](https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer)
+_Additional References @ [F5 Tech Docs - HTTP Load Balacer](https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer)_
 
 Create a Route within the Load Balancer
 
