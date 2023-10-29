@@ -35,11 +35,11 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 - Distributed Cloud Tenant
 
- -	Load Balancer
+  -	Load Balancer
 
- -	Route
+  -	Route
 
- -	API Discovery
+  -	API Discovery
 
 ## Example Discovery
 
