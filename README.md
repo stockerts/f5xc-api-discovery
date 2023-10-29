@@ -4,10 +4,10 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 ## Table of Contents
 1. [Flow](#flow)
-2. [Outcomes](#outcomes)
-3. [Limitations](#limitations)
-4. [Requirements](#requirements)
-5. [Example Discovery](#example-discovery)
+2. [Outcome](#outcome)
+3. [Outcome Example](#outcome-example)
+4. [Limitation](#limitation)
+5. [Requirement](#requirement)
 6. [Guide](#guide)
 7. [Load Balancer Templates](#load-balancer-templates)
 
@@ -15,7 +15,7 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 ![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/flow.png)
 
-## Outcomes
+## Outcome
 
 - Path Discovery (Leaf Creation)
 
@@ -23,7 +23,17 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 _Note - Sensitive Data Detection requires request format of JSON_
 
-## Limitations
+## Outcome Example
+
+Path Discovery (Leaf Creation)
+
+![Path](static/leaf.jpg)
+
+Request Sensitive Data Detection (PUT, POST)
+
+![Detection](static/discovery.jpg)
+
+## Limitation
 
 - No Response Sensitive Data Detection
 
@@ -31,7 +41,9 @@ _Note - Sensitive Data Detection requires request format of JSON_
 
 - No Performance Statistics
 
-## Requirements
+_Note - Limitation(s) are not a result of platform capability, but an outcome of not having a proper service response_
+
+## Requirement
 
 - HTTP(S) Web Request
 
@@ -42,16 +54,6 @@ _Note - Sensitive Data Detection requires request format of JSON_
   -	Route
 
   -	API Discovery
-
-## Example Discovery
-
-Path Discovery (Leaf Creation)
-
-![Path](static/leaf.jpg)
-
-Request Sensitive Data Detection (PUT, POST)
-
-![Detection](static/discovery.jpg)
 
 ## Guide
 
