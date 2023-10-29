@@ -3,13 +3,13 @@
 Simple method for providing API Discovery via Distributed Cloud for APIs that are not proxied by Distributed Cloud.
 
 ## Table of Contents
-1. [Flow](##Flow)
-2. [Outcomes](##Outcomes)
-3. [Limitations](##Limitations)
-4. [Requirements](##Requirements)
-5. [Example Discovery](##Example Discovery)
-6. [Guide](##Guide)
-7. [Load Balancer Templates](##Load Balancer Templates)
+1. [Flow](#flow)
+2. [Outcomes](#outcomes)
+3. [Limitations](#limitations)
+4. [Requirements](#requirements)
+5. [Example Discovery](#example-discovery)
+6. [Guide](#guide)
+7. [Load Balancer Templates](#load-balancer-templates)
 
 ## Flow
 
@@ -43,9 +43,9 @@ Distributed Cloud Tenant
 
 ## Example Discovery
 
-![Path](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/leaf.jpg)
+![Path](static/leaf.jpg)
 
-![Detection](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/discovery.jpg)
+![Detection](static/discovery.jpg)
 
 ## Guide
 
@@ -59,19 +59,19 @@ Created a HTTP Load Balancer, specifying your desired configuration
 
 Create a Route within the Load Balancer
 
-![Route](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route.jpg)
+![Route](static/route.jpg)
 
 Update Response Type, Edit Direct Reponse configuration
 
-![Route Response Type](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_type_response.jpg)
+![Route Response Type](static/route_type_response.jpg)
 
 Updated Response Body (JSON Format)
 
-![Response Body](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/response_body.jpg)
+![Response Body](static/response_body.jpg)
 
 Confirm Route List
 
-![Route Response List](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_response.jpg)
+![Route Response List](static/route_response.jpg)
 
 ## Load Balancer Templates (JSON)
 
