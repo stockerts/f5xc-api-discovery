@@ -34,12 +34,9 @@ No Performance Statistics
 HTTP(S) Web Request
 
 Distributed Cloud Tenant
-
-•	Load Balancer
-
-•	API Discovery
-
-•	Route
+  -Load Balancer
+  -Route
+  -API Discovery
 
 ## Example Discovery
 
@@ -50,14 +47,11 @@ Distributed Cloud Tenant
 ## Guide
 
 Created a HTTP Load Balancer, specifying your desired configuration
+  -Load Balancer Name
+  -Domain(s)
+  -Load Balancer Type
 
-•	Load Balancer Name
-
-•	Domains
-
-•	Load Balancer Type
-
-[!NOTE]
+**Note**
 Additional References
 [F5 Tech Docs - HTTP Load Balacer](https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer)
 
