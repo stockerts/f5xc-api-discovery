@@ -67,7 +67,17 @@ Confirm Route List
 ## Load Balancer Templates (JSON)
 
 HTTP without Managed DNS
-![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/route_response.json)
+
+![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_http.json)
+
 HTTP with Managed DNS
+
+![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_http_dns.json)
+
 HTTPS with Auto Certificate
+
+![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_https_auto_cert.json)
+
 HTTPS with Custom Certificate (multi)
+
+![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_https_multi_cert.json)
