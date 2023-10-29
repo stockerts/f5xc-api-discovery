@@ -31,16 +31,23 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 ## Requirements
 
-HTTP(S) Web Request
+- HTTP(S) Web Request
 
-Distributed Cloud Tenant
--	Load Balancer
--	Route
--	API Discovery
+- Distributed Cloud Tenant
+
+ -	Load Balancer
+
+ -	Route
+
+ -	API Discovery
 
 ## Example Discovery
 
+Path Discovery (Leaf Creation)
+
 ![Path](static/leaf.jpg)
+
+Request Sensitive Data Detection (PUT, POST)
 
 ![Detection](static/discovery.jpg)
 
