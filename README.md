@@ -57,3 +57,9 @@ Updated Response Body (JSON Format)
 Confirm Route List
 
 ![Route Response List](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_response.jpg)
+
+## Example Discovery
+
+![Path](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/leaf.jpg)
+
+![Detection](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/discovery.jpg)
