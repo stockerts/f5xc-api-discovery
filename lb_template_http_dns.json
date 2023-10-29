@@ -24,7 +24,7 @@
           },
           "route_direct_response": {
             "response_code": 200,
-            "response_body": "{\r\n    \"message\": \"this is a mock response\"\r\n}"
+            "response_body": "{\n    \"message\": \"this is a mock response\"\n}"
           }
         }
       }
