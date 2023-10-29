@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "name": "load-balancer-name",
+    "disable": false
+  },
+  "spec": {
+    "domains": [
+      "domain-name"
+    ],
+    "http": {
+      "dns_volterra_managed": false,
+      "port": 80
+    },
+    "advertise_on_public_default_vip": {},
+    "routes": [
+      {
+        "direct_response_route": {
+          "http_method": "ANY",
+          "path": {
+            "prefix": "/"
+          },
+          "incoming_port": {
+            "no_port_match": {}
+          },
+          "route_direct_response": {
+            "response_code": 200,
+            "response_body": "{\r\n    \"message\": \"this is a mock response\"\r\n}"
+          }
+        }
+      }
+    ],
+    "disable_waf": {},
+    "add_location": true,
+    "no_challenge": {},
+    "user_id_client_ip": {},
+    "disable_rate_limit": {},
+    "service_policies_from_namespace": {},
+    "round_robin": {},
+    "disable_trust_client_ip_headers": {},
+    "disable_ddos_detection": {},
+    "disable_malicious_user_detection": {},
+    "disable_api_discovery": {},
+    "disable_bot_defense": {},
+    "disable_api_definition": {},
+    "disable_ip_reputation": {},
+    "disable_client_side_defense": {},
+    "system_default_timeouts": {}
+  }
+}

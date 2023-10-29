@@ -32,6 +32,12 @@ Distributed Cloud Tenant
 
 •	Route
 
+## Example Discovery
+
+![Path](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/leaf.jpg)
+
+![Detection](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/discovery.jpg)
+
 ## Guide
 
 Created a HTTP Load Balancer, specifying your desired configuration
@@ -58,8 +64,10 @@ Confirm Route List
 
 ![Route Response List](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/route_response.jpg)
 
-## Example Discovery
+## Load Balancer Templates (JSON)
 
-![Path](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/leaf.jpg)
-
-![Detection](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/discovery.jpg)
+HTTP without Managed DNS
+![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/route_response.json)
+HTTP with Managed DNS
+HTTPS with Auto Certificate
+HTTPS with Custom Certificate (multi)
