@@ -21,6 +21,8 @@ Simple method for providing API Discovery via Distributed Cloud for APIs that ar
 
 - Request Sensitive Data Detection (PUT, POST)
 
+_Note - Sensitive Data Detection requires request format of JSON_
+
 ## Limitations
 
 - No Response Sensitive Data Detection
