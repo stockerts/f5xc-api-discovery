@@ -2,6 +2,15 @@
 
 Simple method for providing API Discovery via Distributed Cloud for APIs that are not proxied by Distributed Cloud.
 
+## Table of Contents
+1. [Flow](##Flow)
+2. [Outcomes](##Outcomes)
+3. [Limitations](##Limitations)
+4. [Requirements](##Requirements)
+5. [Example Discovery](##Example Discovery)
+6. [Guide](##Guide)
+7. [Load Balancer Templates](##Load Balancer Templates)
+
 ## Flow
 
 ![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/flow.png)
@@ -68,16 +77,16 @@ Confirm Route List
 
 HTTP without Managed DNS
 
-![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_http.json)
+[lb_template_http](lb_template_http.json)
 
 HTTP with Managed DNS
 
-![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_http_dns.json)
+[lb_template_http_dns](lb_template_http_dns.json)
 
 HTTPS with Auto Certificate
 
-![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_https_auto_cert.json)
+[lb_template_https_auto_cert](lb_template_https_auto_cert.json)
 
-HTTPS with Custom Certificate (multi)
+HTTPS with Custom Certificate (Multiple Certificate)
 
-![LB Template HTTP](https://github.com/stockerts/f5xc-app-discovery/blob/main/lb_template_https_multi_cert.json)
+[lb_template_https_multi_cert](lb_template_https_multi_cert.json)
