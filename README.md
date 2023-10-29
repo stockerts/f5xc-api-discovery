@@ -57,6 +57,10 @@ Created a HTTP Load Balancer, specifying your desired configuration
 
 •	Load Balancer Type
 
+[!NOTE]
+Additional References
+[F5 Tech Docs - HTTP Load Balacer](https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer)
+
 Create a Route within the Load Balancer
 
 ![Route](static/route.jpg)
@@ -72,6 +76,10 @@ Updated Response Body (JSON Format)
 Confirm Route List
 
 ![Route Response List](static/route_response.jpg)
+
+Enable API Dicovery
+
+![Route Response List](static/discovery_enabled.jpg)
 
 ## Load Balancer Templates (JSON)
 
