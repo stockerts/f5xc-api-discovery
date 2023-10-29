@@ -82,7 +82,7 @@ Enable API Dicovery
 
 ![Route Response List](static/discovery_enabled.jpg)
 
-## Load Balancer Templates (JSON)
+## Load Balancer Templates
 
 HTTP without Managed DNS
 
