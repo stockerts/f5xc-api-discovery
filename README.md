@@ -78,7 +78,7 @@ Updated Response Body (JSON Format)
 
 ![Response Body](static/response_body.jpg)
 
-  [response body content](response_body.json)
+[response body content](response_body.json)
 
 Confirm Route List
 
@@ -92,16 +92,16 @@ Enable API Discovery
 
 HTTP without Managed DNS
 
-  [lb_template_http](lb_template_http.json)
+[lb_template_http](lb_template_http.json)
 
 HTTP with Managed DNS
 
-  [lb_template_http_dns](lb_template_http_dns.json)
+[lb_template_http_dns](lb_template_http_dns.json)
 
 HTTPS with Auto Certificate
 
-  [lb_template_https_auto_cert](lb_template_https_auto_cert.json)
+[lb_template_https_auto_cert](lb_template_https_auto_cert.json)
 
 HTTPS with Custom Certificate (Multiple Certificate)
 
-  [lb_template_https_multi_cert](lb_template_https_multi_cert.json)
+[lb_template_https_multi_cert](lb_template_https_multi_cert.json)
