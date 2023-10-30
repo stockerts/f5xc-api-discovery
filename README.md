@@ -78,6 +78,8 @@ Updated Response Body (JSON Format)
 
 ![Response Body](static/response_body.jpg)
 
+[response body content](response_body.json)
+
 Confirm Route List
 
 ![Route Response List](static/route_response.jpg)
