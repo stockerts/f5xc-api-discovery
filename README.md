@@ -2,12 +2,14 @@
 
 Simple method for providing API Discovery via Distributed Cloud for APIs that are not proxied by Distributed Cloud.
 
+This approach doesn't require an actual service response, only cloned or mirrored request traffic.
+
 ## Table of Contents
 1. [Flow](#flow)
 2. [Outcome](#outcome)
 3. [Outcome Example](#outcome-example)
-4. [Limitation](#limitation)
-5. [Requirement](#requirement)
+4. [Limitations](#limitations)
+5. [Requirements](#requirements)
 6. [Guide](#guide)
 7. [Load Balancer Templates](#load-balancer-templates)
 
@@ -33,7 +35,7 @@ Request Sensitive Data Detection (PUT, POST)
 
 ![Detection](static/discovery.jpg)
 
-## Limitation
+## Limitations
 
 - No Response Sensitive Data Detection
 
@@ -43,7 +45,7 @@ Request Sensitive Data Detection (PUT, POST)
 
 _Note - Limitation(s) are not a result of platform capability, but an outcome of not having a proper service response_
 
-## Requirement
+## Requirements
 
 - HTTP(S) Web Request
 
@@ -80,7 +82,7 @@ Confirm Route List
 
 ![Route Response List](static/route_response.jpg)
 
-Enable API Dicovery
+Enable API Discovery
 
 ![Route Response List](static/discovery_enabled.jpg)
 
