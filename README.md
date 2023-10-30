@@ -47,7 +47,7 @@ _Note - Limitation(s) are not a result of platform capability, but an outcome of
 
 ## Requirements
 
-- HTTP(S) Web Request
+- HTTP(S) Request Traffic
 
 - Distributed Cloud Tenant
 
