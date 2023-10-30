@@ -15,7 +15,7 @@ This approach doesn't require an actual service response, only cloned or mirrore
 
 ## Flow
 
-![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/flow.png)
+![Object Flow](https://github.com/stockerts/f5xc-app-discovery/blob/main/static/object_flow.jpg)
 
 ## Outcome
 
