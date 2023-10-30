@@ -2,7 +2,7 @@
 
 Simple method for providing API Discovery via Distributed Cloud for APIs that are not proxied by Distributed Cloud.
 
-This approach doesn't require an actual service response, only cloned or mirrored request traffic.
+This approach doesn't require an actual service response, only request traffic.
 
 ## Table of Contents
 1. [Flow](#flow)
