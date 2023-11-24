@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "name": "<custom-response-name>",
+    "namespace": "<namespace-name>",
+    "labels": {},
+    "annotations": {},
+    "disable": false
+  },
+  "spec": {
+    "routes": [
+      {
+        "match": [
+          {
+            "http_method": "ANY",
+            "path": {
+              "prefix": "/"
+            },
+            "query_params": [],
+            "headers": [],
+            "incoming_port": {
+              "no_port_match": {}
+            }
+          }
+        ],
+        "route_direct_response": {
+          "response_code": 200,
+          "response_body": "{\r\n    \"message\": \"this is a mock response\"\r\n}"
+        },
+        "disable_location_add": false,
+        "service_policy": {
+          "disable": false
+        },
+        "waf_type": {
+          "inherit_waf": {}
+        },
+        "request_headers_to_add": [],
+        "request_headers_to_remove": [],
+        "response_headers_to_add": [
+          {
+            "name": "Content-Type",
+            "value": "application/json",
+            "append": false
+          }
+        ],
+        "response_headers_to_remove": [],
+        "disable_custom_script": false,
+        "inherited_bot_defense_javascript_injection": {},
+        "skip_lb_override": false
+      }
+    ]
+  }
+}

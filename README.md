@@ -59,6 +59,36 @@ _Note - Limitation(s) are not a result of platform capability, but an outcome of
 
 ## Guide
 
+Create a Custom Route
+
+![Custom Route](static/custom_route_name.jpg)
+
+Add Route Matching configuration
+
+![Route Match](static/custom_route_match.jpg)
+
+Add Route Action, Direct Response
+
+![Direct Response](static/custom_route_direct_config.jpg)
+
+Updated Response Body (JSON Format)
+
+![Response Body](static/response_body.jpg)
+
+[response body content](response_body.json)
+
+Expand Advanced Options, Add Response Header
+
+![Adv Response Header](static/custom_route_adv_add_header.jpg)
+
+Update Response Header
+
+![Header Config](static/custom_route_adv_add_header.jpg)
+
+Save and Exit
+
+-------------------------------------------------------------------
+
 Created a HTTP Load Balancer, specifying your desired configuration
 -	Load Balancer Name
 -	Domains
@@ -70,19 +100,9 @@ Create a Route within the Load Balancer
 
 ![Route](static/route.jpg)
 
-Update Response Type, Edit Direct Reponse configuration
+Attach Custom Route
 
-![Route Response Type](static/route_type_response.jpg)
-
-Updated Response Body (JSON Format)
-
-![Response Body](static/response_body.jpg)
-
-[response body content](response_body.json)
-
-Confirm Route List
-
-![Route Response List](static/route_response.jpg)
+![Route](static/attach_custom_route.jpg)
 
 Enable API Discovery
 
