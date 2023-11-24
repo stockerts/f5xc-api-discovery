@@ -74,7 +74,7 @@ Add Route Actions, Direct Response, Configure
 
 ![Direct Response](static/custom_route_direct_config.jpg)
 
-Updated Response Body (JSON Format)
+Update Response Body (JSON Format)
 
 ![Response Body](static/response_body.jpg)
 
