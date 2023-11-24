@@ -11,7 +11,8 @@ This approach doesn't require an actual service response, only request traffic.
 4. [Limitations](#limitations)
 5. [Requirements](#requirements)
 6. [Guide](#guide)
-7. [Load Balancer Templates](#load-balancer-templates)
+7. [Custom Route Template](#custom-route-template)
+8. [Load Balancer Templates](#load-balancer-templates) 
 
 ## Flow
 
@@ -59,6 +60,8 @@ _Note - Limitation(s) are not a result of platform capability, but an outcome of
 
 ## Guide
 
+_Under Multi-Cloud App Connect > Manage > Virtual Host > Routes_
+
 Create a Custom Route, Configure under Routes
 
 ![Custom Route](static/custom_route_name.jpg)
@@ -89,6 +92,8 @@ Save and Exit
 
 -------------------------------------------------------------------
 
+_Under Multi-Cloud App Connect > Manage > Load Balancers > HTTP Load Balancers_
+
 Created a HTTP Load Balancer, specifying your desired configuration
 -	Load Balancer Name
 -	Domains
@@ -96,7 +101,7 @@ Created a HTTP Load Balancer, specifying your desired configuration
 
 _Additional References @ [F5 Tech Docs - HTTP Load Balacer](https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer)_
 
-Create a Route within the Load Balancer
+Add a Route, Configuration under Routes
 
 ![Route](static/route.jpg)
 
@@ -107,6 +112,14 @@ Attach Custom Route
 Enable API Discovery
 
 ![Route Response List](static/discovery_enabled.jpg)
+
+Save and Exit
+
+## Custom Route Template
+
+Custom Route Direct Response
+
+[custom_route_response](custom_route_response.json)
 
 ## Load Balancer Templates
 
