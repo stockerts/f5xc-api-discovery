@@ -59,15 +59,15 @@ _Note - Limitation(s) are not a result of platform capability, but an outcome of
 
 ## Guide
 
-Create a Custom Route
+Create a Custom Route, Configure under Routes
 
 ![Custom Route](static/custom_route_name.jpg)
 
-Add Route Matching configuration
+Add Route Match Condition
 
 ![Route Match](static/custom_route_match.jpg)
 
-Add Route Action, Direct Response
+Add Route Actions, Direct Response, Configure
 
 ![Direct Response](static/custom_route_direct_config.jpg)
 
@@ -77,13 +77,13 @@ Updated Response Body (JSON Format)
 
 [response body content](response_body.json)
 
-Expand Advanced Options, Add Response Header
+Expand Advanced Fields, Response Header to Add
 
 ![Adv Response Header](static/custom_route_adv_add_header.jpg)
 
 Update Response Header
 
-![Header Config](static/custom_route_adv_add_header.jpg)
+![Header Config](static/custom_route_header_content.jpg)
 
 Save and Exit
 

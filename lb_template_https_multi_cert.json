@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "load-balancer-name",
+    "name": "<load-balancer-name>",
     "disable": false
   },
   "spec": {
     "domains": [
-      "domain-name"
+      "<domain-name>"
     ],
     "https": {
       "http_redirect": false,
@@ -24,8 +24,8 @@
         },
         "certificates": [
           {
-            "namespace": "namespace-name",
-            "name": "cert-object-name",
+            "namespace": "<namespace-name>",
+            "name": "<cert-object-name>",
             "kind": "certificate"
           }
         ],
@@ -38,17 +38,11 @@
     "advertise_on_public_default_vip": {},
     "routes": [
       {
-        "direct_response_route": {
-          "http_method": "ANY",
-          "path": {
-            "prefix": "/"
-          },
-          "incoming_port": {
-            "no_port_match": {}
-          },
-          "route_direct_response": {
-            "response_code": 200,
-            "response_body": "{\n    \"message\": \"this is a mock response\"\n}"
+        "custom_route_object": {
+          "route_ref": {
+            "namespace": "<namespace-name>",
+            "name": "<custom-route-name>",
+            "kind": "route"
           }
         }
       }
